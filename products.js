@@ -8,7 +8,7 @@ const homeRentals = [
     bedrooms: 2,
     bathrooms: 1.5,
     accommodates: 4,
-    price_per_night: 100,
+    price: 100,
     amenities: ["Wi-Fi", "Fireplace", "Garden", "Parking"],
     available_dates: ["2023-08-15", "2023-09-01", "2023-09-10", "2023-10-05"],
     host: {
@@ -27,7 +27,7 @@ const homeRentals = [
     bedrooms: 1,
     bathrooms: 1,
     accommodates: 2,
-    price_per_night: 120,
+    price: 120,
     amenities: ["Wi-Fi", "Gym", "Elevator", "Concierge"],
     available_dates: ["2023-08-20", "2023-09-05", "2023-09-15", "2023-10-01"],
     host: {
@@ -46,7 +46,7 @@ const homeRentals = [
     bedrooms: 4,
     bathrooms: 2.5,
     accommodates: 6,
-    price_per_night: 180,
+    price: 180,
     amenities: ["Wi-Fi", "BBQ Grill", "Playground", "Parking"],
     available_dates: ["2023-08-25", "2023-09-08", "2023-09-20", "2023-10-10"],
     host: {

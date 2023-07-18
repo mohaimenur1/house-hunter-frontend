@@ -9,11 +9,13 @@ import {
   RouterProvider,
 } from "react-router-dom";
 import HomePage from "./pages/HomePage.jsx";
+import SingleHouse from "./pages/SingleHouse.jsx";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path="/" element={<App />}>
       <Route index={true} path="/" element={<HomePage />} />
+      <Route path="/product/:id" element={<SingleHouse />} />
     </Route>
   )
 );

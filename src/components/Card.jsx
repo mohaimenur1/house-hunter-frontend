@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const Card = ({ product }) => {
   return (
     <div className="col-lg-4">
@@ -9,8 +11,10 @@ const Card = ({ product }) => {
           <p>Bed Rooms: {product.bedrooms}</p>
           <p>Bath Rooms: {product.bathrooms}</p>
           <p>Accommodates: {product.accommodates}</p>
-          <p>Rent: {product.price_per_night} $</p>
-          <button className="btn btn-primary">View Details</button>
+          <p>Rent: {product.price} $</p>
+          <Link to={`/product/${product.id}`} className="btn btn-primary">
+            View Details
+          </Link>
         </div>
       </div>
     </div>

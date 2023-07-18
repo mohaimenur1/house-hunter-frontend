@@ -9,10 +9,10 @@ const Footer = () => {
             <div className="row mt-3">
               <div className="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
                 <h6 className="text-uppercase fw-bold mb-4">
-                  <i className="fas fa-gem me-3 "></i>Retailer Mania
+                  <i className="fas fa-gem me-3 "></i>House Hunter
                 </h6>
                 <p className="">
-                  Here you can find your expected Service. Retailer Mania is not
+                  Here you can find your expected Service. House Hunter is not
                   only the best Service provider.Target is to reach the highest
                   amount of client no one beat anywhere.
                 </p>
@@ -128,7 +128,7 @@ const Footer = () => {
 
         <div className="text-center p-4 bg-footer">
           © 2021 Copyright:
-          <a className="text-reset fw-bold">Retailer Maina by Rahi</a>
+          <a className="text-reset fw-bold">Hunter House by Rahi</a>
         </div>
       </footer>
     </div>
