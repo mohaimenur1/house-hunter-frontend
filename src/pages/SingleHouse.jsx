@@ -1,10 +1,18 @@
 import { Link, useParams } from "react-router-dom";
 import products from "../../products";
+import { useEffect, useState } from "react";
+import axios from "axios";
 
 const SingleHouse = () => {
+  const [house, setHouse] = useState();
   const { id } = useParams();
-  const house = products.find((product) => product.id === id);
-  console.log(house);
+  useEffect(() => {
+    const fetchHouse = async () => {
+      const { data } = await axios.get(`/api/products/${id}`);
+      setHouse(data);
+    };
+    fetchHouse();
+  }, [id]);
   return (
     <>
       <div className="container mt-5">
